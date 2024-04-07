@@ -17,6 +17,6 @@ public class Steps {
         // Initialize the request specification
         request = RestAssured.given()
                 .auth()
-                .basic("admin", "password123"); // Replace "username" and "password" with actual credentials
+                .basic("admin", "password123");
     }
 }
